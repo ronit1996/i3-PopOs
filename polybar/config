@@ -1,0 +1,23 @@
+[colors]
+background = #44475a
+foreground = #ff5555
+dracula-orange = #ffb86c
+dracula-green = #50fa7b
+dracula-violet = #bd93f9
+dracula-blue = #8be9fd
+dracula-pink = #ff79c6
+dracula-yellow = #f1fa8c
+;dracula-blue = #6272a4
+orange-new = #f28e22
+[bar/center]
+  include-file = /home/ronit/.config/polybar/modules/center.ini
+[bar/date]
+  include-file = /home/ronit/.config/polybar/modules/date.ini
+[bar/right]
+  include-file = /home/ronit/.config/polybar/modules/right.ini
+[bar/bottom]
+   include-file = /home/ronit/.config/polybar/modules/bottom.ini
+[bar/top-weather]
+    include-file = /home/ronit/.config/polybar/modules/top-weather.ini
+[bar/time]
+    include-file = /home/ronit/.config/polybar/modules/time.ini
