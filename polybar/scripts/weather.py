@@ -20,7 +20,7 @@ j = response.json()
 temp = j["main"]["temp"]
 w_type = j["weather"][0]["main"]
 icon = ""
-desc = j["weather"][0]["description"]
+desc = j["weather"][0]["main"]
 if w_type == "Haze":
 
     icon = ""

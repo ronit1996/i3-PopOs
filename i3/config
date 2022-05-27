@@ -272,3 +272,4 @@ mode "$mode_gaps_outer" {
 
 # setting picom
 exec --no-startup-id picom -f
+exec_always nitrogen --restore
